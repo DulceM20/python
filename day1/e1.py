@@ -18,4 +18,7 @@ print(x)
 city= (input("Type the citywhere you grew up: "))
 print(type(city))
 
-num1=int(input("Type"))
+num1=int(input("Type your first number: "))
+num2=int(input("Type you second number: "))
+sum= num1 + num2
+print (f"la suma= {sum}")
